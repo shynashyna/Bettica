@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: rgb(0, 176, 0);
+    padding-top: 30px;
+    min-height: 70px;
+    /* border-bottom: #77aaff 3px solid; */`
+    border-bottom: rgb(0, 176, 0) 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    justify-content: right;
+}
+header li {
+    float: right;
+    display: inline;
+    padding: 0 18px 0 18px;
+}
+.showcase {
+    min-height: 700px;
+    background: url(/Assets/first\ empty\ field.jpg) no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+.showcase h1 {
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.showcase p {
+    font-size: 20px;
+}
+.join-btn {
+    display: inline-block;
+    color: #fff;
+    background: rgb(0, 176, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.contact-btn, .join-btn h3, h4, p {
+    text-align: center;
+} 
+
+/* .hero{
+    background: green;
+    color: red;
+    padding: 40px;
+    text-align: center;
+}
+
+.predictions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px  ;
+     }
+
+    .prediction-card {
+        background: wheat;
+        border: 1px solid red;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 10px;
+        width: 200px;
+        text-align: center;
+    } */
+
+/* .features, .testimonials {
+    margin-top: 20px;
+    text-align: center;
+}
+.features h2, .testimonials h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.features .feature-item, .testimonials .testimonial-item {
+    margin: 10px 0;
+}
+.features p, .testimonials p {
+    font-size: 18px;
+}
+.testimonial-item {
+    border-left: 5px solid #77aaff;
+    padding-left: 15px;
+    margin: 10px auto;
+    width: 60%;
+    text-align: left;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+} */
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.testimonial-content {
+    text-align: left;
+}
+
+.testimonial-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    color: #666;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+/* Default styles for all devices */
+/* ul {
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin-bottom: 10px;
+  } */
+  
+  /* Styles for screens wider than 768px */
+  @media screen and (min-width: 768px) {
+    ul {
+        padding: 0.5px;
+        list-style-type: none;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+  
+    li {
+      /* font-size: 18px;
+      margin-bottom: 15px; */
+      /* display: flex;
+      flex-wrap: nowrap; */
+      flex-wrap: nowrap;
+    }
+
+  }
+  
+  /* Styles for screens smaller than 480px */
+  @media screen and (max-width: 480px) {
+    ul {
+      padding: 0.5px;
+      list-style-type: none;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+  
+    li {
+      /* font-size: 14px;
+      margin-bottom: 5px; */
+      /* display: flex;
+      flex-wrap: nowrap; */
+      flex: 1 1 auto;
+    }
+
+  }
+  
